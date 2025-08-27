@@ -27,7 +27,6 @@ After execution, the segmentation result will be presented in a visualized form.
 # Repository Structure
 
 Repository Structure
-Repository Structure
 ├── src/                  # Source code
 │   └── main.cpp
 │
