@@ -5,11 +5,11 @@ This repository contains the source code for the manuscript Enhanced Point Cloud
 Operating system: Windows 11
 Qt version: Qt 6.6.3
 Compiler: MSVC 2019, x86_64
-Build tool: CMake 3.27.7(QT) Qt Creator 13.0.1 (Community)
+Build tool: Qt Creator 13.0.1 (Community)
 Dependency Library:
-- PCL (Point Cloud Library) 1.12+
+- PCL (Point Cloud Library) 1.12+ https://pointclouds.org/downloads/
 - Eigen3 3.3+
-- VTK 8.2+
+- VTK 8.2+ https://vtk.org/download/
 - Boost 1.74+
 
 #  Compilation methods
@@ -22,4 +22,24 @@ Dependency Library:
 # Usage Example
 When running from Qt Creator, no arguments are passed by default. You need to enter them in Qt Creator → Projects → Run → Command line arguments, for example:
 D:\QTPCL\data\test_input.pcd D:\QTPCL\data\seg_result.pcd
-After execution, the current CVS value will be displayed.
+After execution, the segmentation result will be presented in a visualized form.
+
+# Repository Structure
+
+├── src/                  
+│   ├── main.cpp
+│   
+├── data/                 
+├── project.pro   
+├── results/
+├── docs/
+└── README.md   
+
+
+# Parameters
+Normal vector angle threshold: Used to control the normal angle threshold for surface segmentation.
+RGB threshold: Used to control the similarity threshold of colors.
+Threshold reward factor（km）: Used to balance the adjustment of thresholds during segmentation.
+CVS (Current Value Score): Used to determine whether the segmentation process should be terminated.
+
+
