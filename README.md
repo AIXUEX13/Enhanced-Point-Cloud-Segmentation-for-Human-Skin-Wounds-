@@ -24,7 +24,14 @@ When running from Qt Creator, no arguments are passed by default. You need to en
 D:\QTPCL\data\test_input.pcd D:\QTPCL\data\seg_result.pcd
 After execution, the segmentation result will be presented in a visualized form.
 
+# Parameters
+Normal vector angle threshold: Used to control the normal angle threshold for surface segmentation.
+RGB threshold: Used to control the similarity threshold of colors.
+Threshold reward factor（km）: Used to balance the adjustment of thresholds during segmentation.
+CVS (Current Value Score): Used to determine whether the segmentation process should be terminated.
+
 # Repository Structure
+```plaintext
 ├── src/                  # Source code
 │   └── main.cpp
 │
@@ -38,11 +45,5 @@ After execution, the segmentation result will be presented in a visualized form.
 └── README.md             # Project description
 
 
-
-# Parameters
-Normal vector angle threshold: Used to control the normal angle threshold for surface segmentation.
-RGB threshold: Used to control the similarity threshold of colors.
-Threshold reward factor（km）: Used to balance the adjustment of thresholds during segmentation.
-CVS (Current Value Score): Used to determine whether the segmentation process should be terminated.
 
 
