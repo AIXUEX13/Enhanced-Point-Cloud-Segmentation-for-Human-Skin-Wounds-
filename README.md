@@ -26,14 +26,18 @@ After execution, the segmentation result will be presented in a visualized form.
 
 # Repository Structure
 
-├── src/                  
-│   ├── main.cpp
-│   
-├── data/                 
-├── project.pro   
-├── results/
-├── docs/
-└── README.md   
+Repository Structure
+├── src/                  # Source code
+│   └── main.cpp
+│
+├── data/                 # Sample input point clouds
+│
+├── results/              # Segmentation outputs
+│
+├── docs/                 # Documentation, figures
+│
+├── project.pro           # Qt project configuration file
+└── README.md             # Project description
 
 
 # Parameters
