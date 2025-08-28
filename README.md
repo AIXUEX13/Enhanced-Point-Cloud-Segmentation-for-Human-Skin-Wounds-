@@ -8,9 +8,7 @@ Compiler: MSVC 2019, x86_64
 Build tool: Qt Creator 13.0.1 (Community)
 Dependency Library:
 - PCL (Point Cloud Library) 1.12+ https://pointclouds.org/downloads/
-- Eigen3 3.3+
 - VTK 8.2+ https://vtk.org/download/
-- Boost 1.74+
 
 #  Compilation methods
 1.Open the project.pro file.
