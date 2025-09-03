@@ -21,6 +21,7 @@ Dependency Library:
 When running from Qt Creator, no arguments are passed by default. You need to enter them in Qt Creator → Projects → Run → Command line arguments, for example:
 D:\QTPCL\data\test_input.pcd D:\QTPCL\data\seg_result.pcd
 After execution, the segmentation result will be presented in a visualized form.
+The main.cpp in src is the algorithm code, and the rest of the cpp is the segmented code of each part of the function, which is for reference only.
 
 # Parameters
 Normal vector angle threshold: Used to control the normal angle threshold for surface segmentation.
