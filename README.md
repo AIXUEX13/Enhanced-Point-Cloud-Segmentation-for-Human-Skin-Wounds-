@@ -33,6 +33,14 @@ CVS (Current Value Score): Used to determine whether the segmentation process sh
 ```plaintext
 ├── src/                  # Source code
 │   └── main.cpp
+│   └── boundary.cpp
+│   └── chromatically.cpp
+|   └── pairing.cpp
+|   └── under_segmentation.cpp
+│   └── filtering.cpp
+│   └── seg.cpp
+│   └── sort.cpp
+|   
 │
 ├── data/                 # Sample input point clouds
 │
